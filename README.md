@@ -22,7 +22,7 @@ I am running Python locally with anaconda. Run the following commands
 - export BLINKA_MCP2221_RESET_DELAY=0.5
 - pip install scipy   #to enhance the resolution, if needed
 
-This is the python script:
+#This is the python script:
 
 import os
 
