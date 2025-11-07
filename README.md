@@ -16,8 +16,10 @@ I am running Python locally with anaconda. Run the following commands
 
 - conda create -n IRcamera python=3.10 -y   #create a new environment
 - conda activate IRcamera
-- export PATH="/Users/rodolfocapdevilla/opt/anaconda3/envs/IRcamera_v2/bin:$PATH"
+- export PATH="/Users/rodolfocapdevilla/opt/anaconda3/envs/IRcamera_v2/bin:$PATH"   #need every time (check "which pip" and "python --version")
 - pip install hidapi adafruit-blinka adafruit-circuitpython-mlx90640 numpy matplotlib
+- pip install --upgrade --force-reinstall adafruit-blinka adafruit-platformdetect   #if needed
+- export BLINKA_MCP2221_RESET_DELAY=0.5
 
 This is the python script:
 
