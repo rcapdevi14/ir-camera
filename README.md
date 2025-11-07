@@ -12,8 +12,6 @@ Components were bought in adafruit.com
 5) White Nylon Machine Screw and Stand-off Set – M2.5 Thread. Product ID: 3658 ($14.95)
 6) Adafruit Swirly Aluminum Mounting Grid for 0.1" Spaced PCBs - 5x5. Product ID: 5779 ($3.95)
 
-A picture and a video of the output are attached.
-
 # Software:
 
 I am running Python locally with anaconda. Run the following commands
@@ -25,6 +23,8 @@ I am running Python locally with anaconda. Run the following commands
 - pip install --upgrade --force-reinstall adafruit-blinka adafruit-platformdetect   #if needed
 - export BLINKA_MCP2221_RESET_DELAY=0.5
 - pip install scipy   #to enhance the resolution, if needed
+
+A picture and a video of the output are attached.
 
 # This is the python script:
 
